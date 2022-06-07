@@ -3,6 +3,8 @@
   }
   
   .footer {
+    background-color: black;
+    color: aliceblue;
     font-size: 14px;
     display: flex;
     flex-flow: row wrap;
