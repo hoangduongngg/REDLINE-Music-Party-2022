@@ -10,7 +10,7 @@
 <body>
 
     <!-- top -->
-    <h1>REDLINE MUSIC PARTY 2022</h1>
+    <?php include "navbar.html" ?>
     
 
     <!-- content -->
