@@ -3,11 +3,13 @@
   }
   
   .footer {
+    background-color: black;
+    color: aliceblue;
     font-size: 14px;
     display: flex;
     flex-flow: row wrap;
     padding: 30px 30px 20px 30px;
-    border-top: 1px solid #e5e5e5;
+    /* border-top: 0.3px solid #e5e5e51c; */
   }
   
   .footer > * {
