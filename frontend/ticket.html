@@ -1,1 +1,120 @@
-ticket 
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSRF Token -->
+    <!-- <meta name="csrf-token" content="XwRdHuRhAXo7WbTZynTmAL5anjs4rNJNZBa1kkkZ"> -->
+
+    <!-- <title>Redline Music Party</title> -->
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;700;800&display=swap" rel="stylesheet" />
+    <!-- Line Awesome CDN Link -->
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css" />
+
+    <link rel="stylesheet" href="asset/css/ticket.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+
+    <!-- Fonts -->
+    <link rel="dns-prefetch" href="//fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+    <!-- <link href="https://redlinemusic.party/css/app.css" rel="stylesheet"> -->
+    <!-- <link rel="stylesheet" type="text/css" href="https://redlinemusic.party/css/all.css">
+    <link rel="stylesheet" type="text/css" href="https://redlinemusic.party/css/solid.css">
+    <link rel="stylesheet" type="text/css" href="https://redlinemusic.party/css/light.css"> -->
+
+</head>
+
+<body>
+
+    <main class="py-4">
+        <div class="main-container">
+            <form action="https://redlinemusic.party/admin/transaction/confirm" method="post" class="row" onsubmit="submit.disabled = true">
+                <input type="hidden" name="_token" value="XwRdHuRhAXo7WbTZynTmAL5anjs4rNJNZBa1kkkZ">
+                <div class="col-lg-6">
+                    <div class="form-group">
+                        <label for="buyer-fullname">Họ và tên:</label>
+                        <input type="text" class="form-control" name="customer_name" id="buyer_fullname" required>
+                    </div>
+                    <div class="form-group row">
+                        <div class="col-lg-5">
+                            <label for="buyer-phonenumber">Số điện thoại:</label>
+                            <input type="text" class="form-control" name="customer_phone" id="buyer_phonenumber" required>
+                        </div>
+                        <div class="col-lg-7">
+                            <label for="buyer-email">Email:</label>
+                            <input type="email" class="form-control" name="customer_email" id="buyer_email" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="buyer-fullname">Địa chỉ:</label>
+                        <input type="text" class="form-control" name="customer_address" id="buyer_address" required>
+                    </div>
+                    <label for="">Phương thức phát hành vé:</label>
+                    <div class="row ticket-issue">
+                        <div class="col-6" value="email">
+                            <div class="card selected" value="email" style="border: 0.3px solid black">
+                                <label class="radio-inline" for="issue-email">
+                                    <div class="card-header" id="heading-email">
+                                        <h5 class="mb-0 py-0">
+                                            <div class="btn btn-link text-left py-0">
+                                                <input type="checkbox" name='release_method[]' value="ecode"
+                                                id="issue-email" required checked>
+                                                Vé điện tử (mặc định)
+                                            </div>
+                                            <small>vé được gửi qua email</small>
+                                        </h5>
+                                    </div>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-6">
+                    <div class="radio-buttons">
+                        <!-- <h2>Đặt vé</h2> -->
+                        <h2 for="buyer-email" style="font-weight: 500">Danh sách vé:</h2>
+                        <!-- <br> -->
+                        <label class="custom-radio">
+                            <input type="radio" name="radio" checked>
+                            <span class="radio-btn"><i class="las la-ticket-alt"></i>
+                                <!-- <div class="ticket-icon"></div> -->
+                                <h3 style="font-weight: 600;">Zone A</h3>
+                                <!-- <br> -->
+                                <small style="font-family: 'Montserrat', sans-serif;font-size: 16px; font-weight: 450; position: static;">&nbsp;Standard</small>
+                                <br>
+                                <small>&nbsp; Còn lại: 200</small>
+                                <br><br><br>
+                                <label class="money">139.000 đ</label>
+                        </span>
+                        </label>
+                        <br>
+                        <label class="custom-radio">
+                        <input type="radio" name="radio">
+                            <span class="radio-btn"><i class="las la-ticket-alt"></i>
+                                <!-- <div class="ticket-icon"></div> -->
+                                <!-- <i class="las la-ticket-alt"></i> -->
+                                <h3 style="font-weight: 600;">Early Bird</h3>
+                                <!-- <br> -->
+                                <small style="font-family: 'Montserrat', sans-serif;font-size: 16px;
+                                font-weight: 450;
+                                position: static;">&nbsp;Vé mời </small>
+                                <br>
+                                <small>&nbsp; Còn lại: 5 </small>
+                                <br><br><br>
+                                <!-- <label class="money">139.000 đ</label> -->
+                        </span>
+                        </label>
+                    </div>
+                </div>
+
+        </div>
+    </main>
+
+</body>
+<script src="https://redlinemusic.party/js/app.js"></script>

@@ -7,7 +7,6 @@ body {
     grid-template-rows: auto 1fr auto;
     align-items: start;
     min-height: 100vh;
-    
 }
 
 img {
