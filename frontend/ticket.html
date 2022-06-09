@@ -17,7 +17,8 @@
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 
-
+    <a href="https://front.codes/" class="logo" target="_blank">
+    </a>
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
@@ -30,17 +31,19 @@
 
 <body>
 
-    <main class="py-4">
+    <main>
         <div class="main-container">
             <form action="https://redlinemusic.party/admin/transaction/confirm" method="post" class="row" onsubmit="submit.disabled = true">
                 <input type="hidden" name="_token" value="XwRdHuRhAXo7WbTZynTmAL5anjs4rNJNZBa1kkkZ">
                 <div class="col-lg-6">
                     <div class="form-group">
                         <label for="buyer-fullname">Họ và tên:</label>
+
                         <input type="text" class="form-control" name="customer_name" id="buyer_fullname" required>
                     </div>
                     <div class="form-group row">
                         <div class="col-lg-5">
+
                             <label for="buyer-phonenumber">Số điện thoại:</label>
                             <input type="text" class="form-control" name="customer_phone" id="buyer_phonenumber" required>
                         </div>
@@ -65,7 +68,26 @@
                                                 id="issue-email" required checked>
                                                 Vé điện tử (mặc định)
                                             </div>
-                                            <small>vé được gửi qua email</small>
+                                            <small styl e="font-family: 'Montserrat', sans-serif;font-size: 16px; font-weight: 450; position: static;">vé được gửi qua email</small>
+                                        </h5>
+                                    </div>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row ticket-payment">
+                        <div class="col-lg-4">
+                            <div class="card" value="cash" style="border: 0.3px solid black">
+                                <label class="radio-inline" for="payment-cash">
+                                    <div class="card-header" id="heading-cash">
+                                        <h5 class="mb-0 py-0">
+                                            <div class="row">
+                                                <div class="btn btn-link text-left py-0">
+                                                    <input type="radio" name="payment_method" value="cash" id="payment-cash" required="">
+                                                    Tiền mặt
+                                                </div>
+                                                <small>kích hoạt ngay</small>
+                                            </div>
                                         </h5>
                                     </div>
                                 </label>
@@ -79,7 +101,7 @@
                     <div class="radio-buttons">
                         <!-- <h2>Đặt vé</h2> -->
                         <h2 for="buyer-email" style="font-weight: 500">Danh sách vé:</h2>
-                        <!-- <br> -->
+                        <br><br>
                         <label class="custom-radio">
                             <input type="radio" name="radio" checked>
                             <span class="radio-btn"><i class="las la-ticket-alt"></i>
@@ -93,7 +115,7 @@
                                 <label class="money">139.000 đ</label>
                         </span>
                         </label>
-                        <br>
+                        <!-- <br>    -->
                         <label class="custom-radio">
                         <input type="radio" name="radio">
                             <span class="radio-btn"><i class="las la-ticket-alt"></i>

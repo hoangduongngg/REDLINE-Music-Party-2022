@@ -53,7 +53,7 @@ img {
 
 .radio-btn>i {
     color: #ffffff;
-    background-color: #8373e6;
+    background-color: #ffeba7;
     font-size: 27px;
     position: absolute;
     top: -18px;
@@ -77,7 +77,7 @@ img {
 }
 
 .radio-btn .ticket-icon i {
-    color: #8373e6;
+    color: #ffeba7;
     line-height: 80px;
     font-size: 60px;
 }
@@ -91,7 +91,7 @@ img {
 }
 
 .custom-radio input:checked+.radio-btn {
-    border: 3px solid #8373e6;
+    border: 3px solid #ffeba7;
 }
 
 .custom-radio input:checked+.radio-btn>i {
@@ -101,7 +101,7 @@ img {
 }
 
 .custom-radio .money {
-    color: #8373e6;
+    color: #ffeba7;
     font-size: 26px;
     font-weight: 600;
     font-family: "Montserrat", sans-serif;
