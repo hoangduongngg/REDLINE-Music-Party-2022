@@ -4,26 +4,18 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- CSRF Token -->
-    <!-- <meta name="csrf-token" content="XwRdHuRhAXo7WbTZynTmAL5anjs4rNJNZBa1kkkZ"> -->
-
-    <!-- <title>Redline Music Party</title> -->
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;700;800&display=swap" rel="stylesheet" />
     <!-- Line Awesome CDN Link -->
     <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css" />
+    <!-- <link rel="stylesheet" href="asset/css/ticket/ticket.css"> -->
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="asset/css/ticket.css">
-
+    <link rel="stylesheet" href="asset/css/ticket/ticket.css">
+    <!-- <link rel="stylesheet" href="asset/css/ticket/style_inform.css"> -->
     <a href="https://front.codes/" class="logo" target="_blank"></a>
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
-    <!-- <link href="https://redlinemusic.party/css/app.css" rel="stylesheet"> -->
-    <!-- <link rel="stylesheet" type="text/css" href="https://redlinemusic.party/css/all.css">
-    <link rel="stylesheet" type="text/css" href="https://redlinemusic.party/css/solid.css">
-    <link rel="stylesheet" type="text/css" href="https://redlinemusic.party/css/light.css"> -->
 
 </head>
 
@@ -33,27 +25,29 @@
         <div class="main-container">
             <form action="https://redlinemusic.party/admin/transaction/confirm" method="post" class="row" onsubmit="submit.disabled = true">
                 <input type="hidden" name="_token" value="XwRdHuRhAXo7WbTZynTmAL5anjs4rNJNZBa1kkkZ">
-                <div class="col-lg-6">
+                <div class="col-lg-7">
                     <div class="form-group">
-                        <label for="buyer-fullname">Họ và tên:</label>
-
-                        <input type="text" class="form-control" name="customer_name" id="buyer_fullname" required>
+                        <!-- <label>Họ và tên:</label> -->
+                        <input type="text" class="form-control rounded-left" placeholder="Name" required>
                     </div>
                     <div class="form-group row">
                         <div class="col-lg-5">
-
-                            <label for="buyer-phonenumber">Số điện thoại:</label>
-                            <input type="text" class="form-control" name="customer_phone" id="buyer_phonenumber" required>
+                            <!-- <label>Số điện thoại:</label> -->
+                            <br>
+                            <input type="text" class="form-control rounded-left" placeholder="Phone number" name="customer_phone" id="buyer_phonenumber" required>
                         </div>
                         <div class="col-lg-7">
-                            <label for="buyer-email">Email:</label>
-                            <input type="email" class="form-control" name="customer_email" id="buyer_email" required>
+                            <!-- <label for="buyer-email">Email:</label> -->
+                            <br>
+                            <input type="email" class="form-control rounded-left" placeholder="Email" name="customer_email" id="buyer_email" required>
                         </div>
                     </div>
                     <div class="form-group">
-                        <label for="buyer-fullname">Địa chỉ:</label>
-                        <input type="text" class="form-control" name="customer_address" id="buyer_address" required>
+                        <!-- <label for="buyer-fullname">Địa chỉ:</label> -->
+                        <br>
+                        <input type="text" class="form-control rounded-left" placeholder="Address" name="customer_address" id="buyer_address" required>
                     </div>
+                    <br>
                     <label for="">Phương thức phát hành vé:</label>
                     <div class="row ticket-issue">
                         <div class="col-6" value="email">
@@ -66,7 +60,7 @@
                                                 id="issue-email" required checked>
                                                 Vé điện tử (mặc định)
                                             </div>
-                                            <small styl e="font-family: 'Montserrat', sans-serif;font-size: 16px; font-weight: 450; position: static;">vé được gửi qua email</small>
+                                            <small style="font-family: 'Montserrat', sans-serif;font-size: 16px; font-weight: 450; position: static;">vé được gửi qua email</small>
                                         </h5>
                                     </div>
                                 </label>
@@ -83,10 +77,9 @@
                                         <h5 class="mb-0 py-0">
                                                 <div class="btn btn-link text-left py-0">
                                                     <input type="radio" name="payment_method" value="cash" id="payment-cash" required="">
-                                                    VNPAY
+                                                    Chuyển khoản
                                                 </div>
                                                 <br>
-                                                <small>kích hoạt ngay</small>
                                         </h5>
                                     </div>
                                 </label>
@@ -96,24 +89,24 @@
                 </div>
 
 
-                <div class="col-lg-6">
+                <div class="col-lg-5">
                     <div class="radio-buttons">
                         <!-- <h2>Đặt vé</h2> -->
                         <h2 for="buyer-email" style="font-weight: 500">Danh sách vé:</h2>
-                        <br><br>
-                        <label class="custom-radio">
+                        <br>
+                        <!-- <label class="custom-radio">
                             <input type="radio" name="radio" checked>
                             <span class="radio-btn"><i class="las la-ticket-alt"></i>
                                 <!-- <div class="ticket-icon"></div> -->
-                                <h3 style="font-weight: 600;">Zone A</h3>
-                                <!-- <br> -->
-                                <small style="font-family: 'Montserrat', sans-serif;font-size: 16px; font-weight: 450; position: static;">&nbsp;Standard</small>
-                                <br>
-                                <small>&nbsp; Còn lại: 200</small>
-                                <br><br><br>
-                                <label class="money">139.000 đ</label>
-                        </span>
-                        </label>
+                        <!-- <h3 style="font-weight: 600;">Zone A</h3>
+                        <!-- <br> -->
+                        <!-- <small style="font-family: 'Montserrat', sans-serif;font-size: 16px; font-weight: 450; position: static;">&nbsp;Standard</small> -->
+                        <!-- <br> -->
+                        <!-- <small>&nbsp; Còn lại: 200</small> -->
+                        <!-- <br><br><br> -->
+                        <!-- <label class="money">139.000 đ</label> -->
+                        <!-- </span> -->
+                        <!-- </label> -->
                         <!-- <br>    -->
                         <label class="custom-radio">
                         <input type="radio" name="radio">
@@ -138,4 +131,4 @@
     </main>
 
 </body>
-<script src="https://redlinemusic.party/js/app.js"></script>
+<!-- <script src="https://redlinemusic.party/js/app.js"></script> -->
