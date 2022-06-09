@@ -16,7 +16,7 @@
     <!-- content -->
     <img src="asset/img/testimg.png" alt="picture">
     
-
+    <?php include "slider.html" ?>
     <!-- footer -->
    <?php include "footer.html" ?>
 </body>
