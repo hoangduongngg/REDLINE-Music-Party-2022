@@ -34,6 +34,9 @@ a {
   a, a:hover {
     text-decoration: none !important; }
 
+.img_logo {
+  /* border-image: 50px 50px; */
+}
 
 .site-navbar {
   margin-bottom: 0px;

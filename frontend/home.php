@@ -14,8 +14,7 @@
     
 
     <!-- content -->
-    <img src="asset/img/testimg.png" alt="anh">
-    
+    <img src="asset/img/testimg.png" alt="picture">
     
 
     <!-- footer -->

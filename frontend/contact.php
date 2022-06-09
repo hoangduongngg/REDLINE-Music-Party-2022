@@ -10,7 +10,7 @@
 <body>
     <!-- top -->
     <?php include "menu.html" ?>
-
+    <a href=""></a>
     <img src="asset/img/Contact.png" alt="anh">
     <!-- footer -->
    <?php include "footer.html" ?>

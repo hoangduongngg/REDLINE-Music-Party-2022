@@ -14,3 +14,5 @@ Những nghệ sĩ đã từng tham gia biểu diễn tại Redline Music Party
 
 © Sự kiện độc quyền của CLB Truyền Thông & Kỹ Năng Mềm S4C - PTIT.
 https://www.facebook.com/redlinemusicparty
+
+Preview web: https://redline-music-party-2022.hoangduongngg.repl.co/REDLINE-Music-Party-2022/frontend/home.php
