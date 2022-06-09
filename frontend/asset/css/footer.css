@@ -1,5 +1,10 @@
 *, *:before, *:after {
     box-sizing: border-box;
+    
+  }
+
+  img {
+    background-color: black;
   }
   
   .footer {
@@ -8,7 +13,7 @@
     font-size: 14px;
     display: flex;
     flex-flow: row wrap;
-    padding: 30px 30px 20px 30px;
+    padding: 30px 30px 20px 110px;
     /* border-top: 0.3px solid #e5e5e51c; */
   }
   
@@ -27,11 +32,6 @@
     font-size: 1.2rem;
   }
   
-  .footer__addr h2 {
-    margin-top: 1.3em;
-    font-size: 15px;
-    font-weight: 400;
-  }
   
   .nav__title {
     font-weight: 400;
