@@ -15,6 +15,7 @@
     <!-- content -->
     <img src="asset/img/vid/Glitch_logoGalerie.gif" alt="picture">
 
+    <?php include "layout_blog.html" ?>
     <?php include "slider.html" ?>
     <!-- footer -->
    <?php include "footer.html" ?>
