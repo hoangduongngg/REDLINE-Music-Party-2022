@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-.layout_blog html {
+ html {
   box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
 }
@@ -32,8 +32,8 @@
 }
 
 .blog {
-  background-color: #e9e6e4;
-  /* max-width: 1350px; */
+  background-color: black;
+  color: antiquewhite;
   display: grid;
   height: 90vh;
   max-height: 800px;
@@ -65,12 +65,12 @@
   padding: 0 20px;
 }
 .blog-part:not(:last-child) {
-  border-right: 1px solid #94918f;
+  border-right: 1px solid #fff8f3;
 }
 .blog-menu {
   font-size: 22px;
   text-decoration: none;
-  color: #161419;
+  color: #feffe8;
   display: flex;
   letter-spacing: -0.5px;
   align-items: center;
@@ -110,7 +110,7 @@
   content: "";
   width: 16px;
   height: 16px;
-  background-color: #161419;
+  background-color: #feffe8;
   left: 0;
   border-radius: 1px;
   margin-right: 14px;
@@ -120,7 +120,7 @@
   border-radius: 50%;
   width: 12px;
   height: 12px;
-  background-color: #161419;
+  background-color: #feffe8;
   margin-right: 12px;
 }
 .blog .is-menu {
@@ -139,6 +139,7 @@
   letter-spacing: -5px;
   line-height: 1;
   margin-bottom: 6px;
+  text-align: right;
 }
 @media screen and (max-width: 1400px) {
   .blog-big__title {
@@ -226,7 +227,7 @@
   margin: 14px 0;
 }
 .blog-article a {
-  color: #161419;
+  color: #feffe8;
   text-decoration: none;
   font-size: 26px;
   letter-spacing: -1px;
@@ -281,7 +282,7 @@
 marquee {
   font-size: 20px;
   background-color: #121418;
-  color: #e9e6e4;
+  color: black;
   padding: 6px 0;
   width: calc(100% + 44px);
   margin-left: -20px;
@@ -296,7 +297,7 @@ marquee span:before {
   position: relative;
   top: -1px;
   vertical-align: baseline;
-  background-color: #e9e6e4;
+  background-color: black;
   margin: 0 16px;
 }
 
@@ -313,7 +314,7 @@ marquee span:before {
   border-radius: 50%;
   width: 9px;
   height: 9px;
-  background-color: #161419;
+  background-color: #feffe8;
   margin-right: 6px;
 }
 
@@ -400,12 +401,12 @@ marquee span:before {
   width: 100%;
   aspect-ratio: 1/1;
   border-radius: 50%;
-  background-color: #121418;
+  background-color: #fcffec;
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: center;
-  color: #e9e6e4;
+  color: black;
   padding: 20px;
   text-align: center;
   margin-top: 40px;
