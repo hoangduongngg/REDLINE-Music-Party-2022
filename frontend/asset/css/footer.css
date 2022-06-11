@@ -128,3 +128,7 @@
       flex: 2 0px;
     }
   }
+
+  body {
+    background-color: black;
+  }
