@@ -9,7 +9,8 @@
 </head>
 <body>
     <!-- top -->
-    <?php include "menu.html" ?>
+    
+    <?php include "layout_blog.html" ?>
     <img src="asset/img/about_redline.png" alt="anh">
     <!-- footer -->
    <?php include "footer.html" ?>

@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>REDLINE MUSIC PARTY</title>
-    <link rel="stylesheet" href="asset/css/style.css">
 </head>
 <body>
 
@@ -14,7 +13,7 @@
 
     <!-- content -->
     <img src="asset/img/vid/Glitch_logoGalerie.gif" alt="picture">
-
+    <?php include "button_buy.html" ?>
     <?php include "layout_blog.html" ?>
     <?php include "slider.html" ?>
     <!-- footer -->

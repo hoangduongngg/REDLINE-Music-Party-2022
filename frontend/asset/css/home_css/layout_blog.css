@@ -5,6 +5,7 @@
 }
 
  html {
+  
   box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
 }
@@ -13,18 +14,7 @@
   max-width: 100%;
 }
 
-/* .layout_blog body {
-  background-color: #121418;
-  display: flex;
-  font-family: "Inter", sans-serif;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  width: 100%;
-  padding: 0 2em;
-  font-weight: 400;
-  height: 100vh;
-} */
+
 @media screen and (max-width: 768px) {
   body {
     padding: 0;
@@ -141,6 +131,7 @@
   margin-bottom: 6px;
   text-align: right;
 }
+
 @media screen and (max-width: 1400px) {
   .blog-big__title {
     font-size: 120px;
