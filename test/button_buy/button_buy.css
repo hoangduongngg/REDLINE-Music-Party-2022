@@ -1,17 +1,18 @@
 
 .button-57 {
+  height: 50px;
   margin: auto;
   position: relative;
   overflow: hidden;
-  border: 1px solid #18181a;
+  /* border: 1px solid #18181a; */
   color: #18181a;
-  display: inline-block;
-  font-size: 15px;
-  line-height: 15px;
+  /* display: inline-block; */
+  font-size: 55px;
+  /* line-height: 15px; */
   padding: 18px 18px 17px;
   text-decoration: none;
-  cursor: pointer;
-  background: #fff;
+  /* cursor: pointer; */
+  background: rgb(147, 49, 49);
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
