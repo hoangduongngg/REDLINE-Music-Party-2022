@@ -10,6 +10,9 @@
 <body>
     <!-- top -->
     
+    <?php include "menu.html" ?>
+    <img src="asset/img/vid/RedlineIsComing.svg" alt="">
+    <?php include "button_ticket.html" ?>
     <?php include "layout_blog.html" ?>
     <img src="asset/img/about_redline.png" alt="anh">
     <!-- footer -->
