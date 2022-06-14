@@ -14,9 +14,11 @@
     <!-- content -->
     <img src="asset/img/vid/Glitch_logoGalerie.gif" alt="picture">
     <?php include "button_ticket.html" ?>
-    <img src="asset/img/vid/RedlineIsComing.svg" alt="">
+    
+    <?php include "content.html" ?>
+    
     <?php include "layout_blog.html" ?>
-    <?php include "slider.html" ?>
+    <img src="asset/img/Contact.png" alt="anh">
     <!-- footer -->
    <?php include "footer.html" ?>
 </body>
