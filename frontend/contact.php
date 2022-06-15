@@ -11,7 +11,7 @@
     <!-- top -->
     <?php include "menu.html" ?>
     <a href=""></a>
-    <img src="asset/img/Contact.png" alt="anh">
+    <img src="asset/img/Contact.svg" alt="anh">
     <!-- footer -->
    <?php include "footer.html" ?>
 </body>

@@ -18,7 +18,7 @@
     <?php include "content.html" ?>
     
     <?php include "layout_blog.html" ?>
-    <img src="asset/img/Contact.png" alt="anh">
+    <img src="asset/img/Contact.svg" alt="anh">
     <!-- footer -->
    <?php include "footer.html" ?>
 </body>
